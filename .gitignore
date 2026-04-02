@@ -1,0 +1,24 @@
+# --- 소스 코드 보호 (답변 받기 전까지 제외) ---
+*.c
+*.h
+
+# --- 빌드 결과물 및 임시 파일 (CodeWarrior/MPC5606B) ---
+Debug/
+Release/
+obj/
+bin/
+*.elf
+*.mot
+*.srec
+*.map
+
+# --- IDE 설정 및 로컬 경로 관련 ---
+.settings/
+.project
+.cproject
+*.launch
+*.ucp
+
+# --- 기타 OS 관련 ---
+.DS_Store
+Thumbs.db
